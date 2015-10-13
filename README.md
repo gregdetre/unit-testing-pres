@@ -1,4 +1,4 @@
-# unit-testing-pres
+# How to make the most of unit testing 
 
 Presentation by [Greg Detre](http://blog.gregdetre.co.uk/) on unit testing in Python at [Tampa Bay Python meetup](http://www.meetup.com/python-178/events/225328442/) on 13th October 2015.
 
