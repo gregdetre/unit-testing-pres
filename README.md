@@ -1,6 +1,6 @@
 # unit-testing-pres
 
-Presentation by Greg Detre on unit testing in Python at [Tampa Bay Python meetup](http://www.meetup.com/python-178/events/225328442/) on 13th October 2015.
+Presentation by [Greg Detre](http://blog.gregdetre.co.uk/) on unit testing in Python at [Tampa Bay Python meetup](http://www.meetup.com/python-178/events/225328442/) on 13th October 2015.
 
 see:
 
