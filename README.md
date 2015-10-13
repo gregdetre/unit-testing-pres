@@ -21,7 +21,9 @@ http://bit.ly/1GELH73
     virtualenv venv
     source venv/bin/activate
     pip install -r requirements.txt
-    
+
+Or, if you have trouble, just [download the tarball](https://github.com/gregdetre/unit-testing-pres/archive/master.zip).
+
 
 ## Running the tests
 
@@ -33,5 +35,17 @@ Create `test_template0.py`:
 Then run:
 
     $ nose2 test_template0
+
+Or if you weren't able to install `nose2`, add these lines to the end of `test_template0.py`:
+
+    if __name__ == '__main__':
+        unittest.main()
+
+And run:
+
+    $ python test_template0.py
+
+
+## Next steps
 
 Have a look in `test_template1.py` and `test_template2.py` for further examples and usage instructions.
