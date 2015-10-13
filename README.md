@@ -15,7 +15,7 @@ http://bit.ly/1GELH73
 
 ## Setup
 
-    cd ~/dev/
+    cd ~/PATH/TO/DEV/
     git clone git@github.com:gregdetre/unit-testing-pres.git
     cd unit-testing-pres
     virtualenv venv
