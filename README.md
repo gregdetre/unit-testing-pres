@@ -23,3 +23,15 @@ http://bit.ly/1GELH73
     pip install -r requirements.txt
     
 
+## Running the tests
+
+Create `test_template0.py`:
+
+    def test_blah():
+        assert True
+
+Then run:
+
+    $ nose2 test_template0
+
+Have a look in `test_template1.py` and `test_template2.py` for further examples and usage instructions.
