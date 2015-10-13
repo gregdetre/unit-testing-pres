@@ -36,14 +36,9 @@ Then run:
 
     $ nose2 test_template0
 
-Or if you weren't able to install `nose2`, add these lines to the end of `test_template0.py`:
+Or if you weren't able to install `nose2`, you can use the more verbose `unittest` standard library in `test_template2.py`:
 
-    if __name__ == '__main__':
-        unittest.main()
-
-And run:
-
-    $ python test_template0.py
+    $ python test_template2.py
 
 
 ## Next steps
