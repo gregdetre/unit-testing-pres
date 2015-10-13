@@ -4,7 +4,7 @@ import unittest
 # $ nose2 test_template2
 # $ python test_template2.py
 # $ nose2 test_template2.TestCaseOk
-# $ nose2 test_template2.TestCaseProblems
+# $ nose2 test_template2.TestCaseProblems -F -D
 # $ nose2 test_template2.TestCaseGotchas -v
 # $ nose2 test_template2.TestCaseWithSetUpTearDown
 
@@ -40,13 +40,15 @@ class TestCaseProblems(unittest.TestCase):
         1/0
         
     def test_doesnt_raise(self):
+        "Change to 1/0 if you want this to pass"
         with self.assertRaises(ZeroDivisionError):
-            1 / 1
+            1/1
 
 
 class TestCaseGotchas(unittest.TestCase):
 
     def test_nothing(self):
+        "This test got run, but didn't actually test anything"
         2+2 == 5 # will pass, because nothing really got tested
 
     def gets_ignored(self):
